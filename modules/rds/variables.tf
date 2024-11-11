@@ -75,3 +75,9 @@ variable "performance_insights_enabled" {
   description = "Enable performance insights"
   type        = bool
 }
+
+variable "identifier" {
+  description = "The identifier of the RDS instance"
+  type        = string
+
+}
